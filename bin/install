@@ -31,7 +31,7 @@ function install() {
   mkdir -p ./bin
   ln -s ../language_server.sh ./bin/elixir-ls
   ln -s ../debug_adapter.sh ./bin/elixir-ls-debugger
-  cp -fpr * "${install_path}"
+  cp -fpR * "${install_path}"
 
   popd >/dev/null
   popd >/dev/null
